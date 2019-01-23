@@ -1,0 +1,27 @@
+{
+  "name": "time-edit-filterer",
+  "version": "0.1.0",
+  "description": "Transparent filter of ics subscriptions",
+  "main": "src/lib.js",
+  "dependencies": {
+    "ical": "^0.5.0",
+    "ical-generator": "^1.4.4",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirens/TimeEditFilterer.git"
+  },
+  "author": "Kirens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kirens/TimeEditFilterer/issues"
+  },
+  "homepage": "https://github.com/Kirens/TimeEditFilterer#readme"
+}
